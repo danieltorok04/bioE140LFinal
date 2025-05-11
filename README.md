@@ -8,13 +8,13 @@ Lycopene is a carotenoid compound synthesized through a multi-step pathway invol
 
 The four genes and their respective organisms were selected based on phylogenetic diversity, enzymatic characterization, and compatibility with E. coli expression systems:
 
-crtE from Pseudescherichia vulneris (UniProt: P22873): Well-characterized GGPP synthase compatible with bacterial hosts.
+  crtE from Pseudescherichia vulneris (UniProt: P22873): Well-characterized GGPP synthase compatible with bacterial hosts.
 
-crtB from Arthrospira platensis (UniProt: O07333): A cyanobacterial phytoene synthase that offers expression diversity and strong prior characterization.
+  crtB from Arthrospira platensis (UniProt: O07333): A cyanobacterial phytoene synthase that offers expression diversity and strong prior     characterization.
 
-crtI from Pantoea ananas (UniProt: P21685): Frequently used in synthetic biology, known to yield all-trans-lycopene efficiently.
+  crtI from Pantoea ananas (UniProt: P21685): Frequently used in synthetic biology, known to yield all-trans-lycopene efficiently.
 
-idi from Phaffia rhodozyma (UniProt: O42641): A yeast-derived isomerase, chosen to expand phylogenetic representation and optimize precursor balancing.
+  idi from Phaffia rhodozyma (UniProt: O42641): A yeast-derived isomerase, chosen to expand phylogenetic representation and optimize          precursor balancing.
 
 These genes provide a broad orthologous view of the pathway while remaining compatible with bacterial assembly and expression systems.
 
@@ -38,13 +38,13 @@ idi  -->  crtE  -->  crtB  -->  crtI  --> destination vector backbone
 
 The assembly uses four PCR fragments with the following part IDs:
 
-frag1: idi
+  frag1: idi
 
-frag2: crtE
+  frag2: crtE
 
-frag3: crtB
+  frag3: crtB
 
-frag4: crtI
+  frag4: crtI
 
 All parts will be inserted into a common destination vector via Golden Gate Assembly using BsaI.
 
@@ -59,59 +59,22 @@ Transform ggFinal Mach1 Amp 37 pLycopene
 
 6. Oligo Table
 
-Oligo ID
 
-Sequence (5' to 3')
+oIDI-F: agtcGGTCTCgctaATGGCTGCCGTCTTCACTGC (BsaI + start overhang + start_
 
-Notes
+oIDI-R: agtcGGTCTCcggaTCAGGCCTTGTAGTTGACGA (BsaI + end overhang + stop)
 
-oIDI-F
+oCRTE-F: agtcGGTCTCcggaATGTCAGGTGTCGCATACGG (BsaI + overhang)
 
-agtcGGTCTCgctaATGGCTGCCGTCTTCACTGC
+oCRTE-R: agtcGGTCTCtaccTCAGTCGTAGGCGTCGAGAA (BsaI + overhang)
 
-BsaI + start overhang + start
+oCRTB-F: agtcGGTCTCtaccATGAGTTCAAGGGCGACGTG (BsaI + overhang)
 
-oIDI-R
+oCRTB-R: agtcGGTCTCtgaaTTATTCGCGCTCCAGTCCT (BsaI + overhang)
 
-agtcGGTCTCcggaTCAGGCCTTGTAGTTGACGA
+oCRTI-F: agtcGGTCTCtgaaATGGAAACAGCCTGTTGCC (BsaI + overhang)
 
-BsaI + end overhang + stop
-
-oCRTE-F
-
-agtcGGTCTCcggaATGTCAGGTGTCGCATACGG
-
-BsaI + overhang
-
-oCRTE-R
-
-agtcGGTCTCtaccTCAGTCGTAGGCGTCGAGAA
-
-BsaI + overhang
-
-oCRTB-F
-
-agtcGGTCTCtaccATGAGTTCAAGGGCGACGTG
-
-BsaI + overhang
-
-oCRTB-R
-
-agtcGGTCTCtgaaTTATTCGCGCTCCAGTCCT
-
-BsaI + overhang
-
-oCRTI-F
-
-agtcGGTCTCtgaaATGGAAACAGCCTGTTGCC
-
-BsaI + overhang
-
-oCRTI-R
-
-agtcGGTCTCactaTTAGGCGTCCTTCGCGATG
-
-BsaI + overhang
+oCRTI-R: agtcGGTCTCactaTTAGGCGTCCTTCGCGATG (BsaI + overhang)
 
 7. Conclusion
 
