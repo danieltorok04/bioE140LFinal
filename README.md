@@ -8,13 +8,19 @@ Lycopene is a carotenoid compound synthesized through a multi-step pathway invol
 
 The four genes and their respective organisms were selected based on phylogenetic diversity, enzymatic characterization, and compatibility with E. coli expression systems:
 
-  crtE from Pseudescherichia vulneris (UniProt: P22873): Well-characterized GGPP synthase compatible with bacterial hosts.
+  crtE from Pseudescherichia vulneris (UniProt: P22873): Well-characterized GGPP synthase compatible with bacterial hosts. Geranylgeranyl diphosphate synthase- Catalyzes the condensation of farnesyl diphosphate (FPP) and isopentenyl diphosphate (IPP) to yield geranylgeranyl diphosphate (GGPP) needed for biosynthesis of carotenoids and diterpenes.
 
-  crtB from Arthrospira platensis (UniProt: O07333): A cyanobacterial phytoene synthase that offers expression diversity and strong prior     characterization.
+  crtB from Arthrospira platensis (UniProt: O07333): A cyanobacterial phytoene synthase that offers expression diversity and strong prior     characterization. Phytoene synthase- Catalyzes the reaction from prephytoene diphosphate to phytoene.
 
-  crtI from Pantoea ananas (UniProt: P21685): Frequently used in synthetic biology, known to yield all-trans-lycopene efficiently.
+  crtI from Pantoea ananas (UniProt: P21685): Frequently used in synthetic biology, known to yield all-trans-lycopene efficiently. Phytoene desaturase (lycopene-forming) - Converts 15-cis-phytoene into all-trans-lycopene via the intermediary of all-trans-phytofluene, all-trans-zeta-carotene and all-trans-neurosporene, by the introduction of four double bonds.
 
-  idi from Phaffia rhodozyma (UniProt: O42641): A yeast-derived isomerase, chosen to expand phylogenetic representation and optimize          precursor balancing.
+  idi from Phaffia rhodozyma (UniProt: O42641): A yeast-derived isomerase, chosen to expand phylogenetic representation and optimize          precursor balancing. Isopentenyl-diphosphate delta-isomerase- Isopentenyl-diphosphate delta-isomerase; part of the second module of ergosterol biosynthesis pathway that includes the middle steps of the pathway (PubMed:9182699).
+The second module is carried out in the vacuole and involves the formation of farnesyl diphosphate, which is also an important intermediate in the biosynthesis of ubiquinone, dolichol, heme and prenylated proteins (By similarity).
+Activity by the mevalonate kinase first converts mevalonate into 5-phosphomevalonate (By similarity).
+5-phosphomevalonate is then further converted to 5-diphosphomevalonate by the phosphomevalonate kinase (By similarity).
+The diphosphomevalonate decarboxylase then produces isopentenyl diphosphate (By similarity).
+The isopentenyl-diphosphate delta-isomerase then catalyzes the 1,3-allylic rearrangement of the homoallylic substrate isopentenyl (IPP) to its highly electrophilic allylic isomer, dimethylallyl diphosphate (DMAPP) (PubMed:9182699).
+Finally the farnesyl diphosphate synthase catalyzes the sequential condensation of isopentenyl pyrophosphate with dimethylallyl pyrophosphate, and then with the resultant geranylpyrophosphate to the ultimate product farnesyl pyrophosphate (By similarity)
 
 These genes provide a broad orthologous view of the pathway while remaining compatible with bacterial assembly and expression systems.
 
