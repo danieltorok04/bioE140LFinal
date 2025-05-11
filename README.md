@@ -60,21 +60,21 @@ Transform ggFinal Mach1 Amp 37 pLycopene
 6. Oligo Table
 
 
-oIDI-F: agtcGGTCTCgctaATGGCTGCCGTCTTCACTGC (BsaI + start overhang + start_
+oIDI-F: agtcGGTCTCactaATGGCTGCCGTCTTCACTGC (BsaI + acta overhang (1st position) + start codon)
 
-oIDI-R: agtcGGTCTCcggaTCAGGCCTTGTAGTTGACGA (BsaI + end overhang + stop)
+oIDI-R: agtcGGTCTCgctaTCAGGCCTTGTAGTTGACGA (BsaI + gcta overhang (joins to crtE) + stop codon)
 
-oCRTE-F: agtcGGTCTCcggaATGTCAGGTGTCGCATACGG (BsaI + overhang)
+oCRTE-F: 	agtcGGTCTCgctaATGTCAGGTGTCGCATACGG (BsaI + gcta overhang (2nd position) + start codon)
 
-oCRTE-R: agtcGGTCTCtaccTCAGTCGTAGGCGTCGAGAA (BsaI + overhang)
+oCRTE-R: agtcGGTCTCcggaTCAGTCGTAGGCGTCGAGAA (BsaI + cgga overhang (joins to crtB) + stop codon)
 
-oCRTB-F: agtcGGTCTCtaccATGAGTTCAAGGGCGACGTG (BsaI + overhang)
+oCRTB-F: agtcGGTCTCcggaATGAGTTCAAGGGCGACGTG (BsaI + cgga overhang (3rd position) + start codon)
 
-oCRTB-R: agtcGGTCTCtgaaTTATTCGCGCTCCAGTCCT (BsaI + overhang)
+oCRTB-R: agtcGGTCTCtaccTTATTCGCGCTCCAGTCCT (BsaI + tacc overhang (joins to crtI) + stop codon)
 
-oCRTI-F: agtcGGTCTCtgaaATGGAAACAGCCTGTTGCC (BsaI + overhang)
+oCRTI-F: agtcGGTCTCtaccATGGAAACAGCCTGTTGCC (BsaI + tacc overhang (4th position) + start codon)
 
-oCRTI-R: agtcGGTCTCactaTTAGGCGTCCTTCGCGATG (BsaI + overhang)
+oCRTI-R: agtcGGTCTCtgaaTTAGGCGTCCTTCGCGATG (BsaI + tgaa overhang (joins to vector) + stop codon)
 
 7. Conclusion
 
